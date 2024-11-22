@@ -1,0 +1,106 @@
+/* Header */
+.header1 {
+    text-align: center;
+    border-style: outset;
+    color: #f1f1f1;
+    background-color: #121212; /* Darker background for a modern feel */
+    padding: 20px;
+    font-family: 'Roboto', sans-serif; /* Modern font for a sleek look */
+}
+
+/* Body */
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #e0e0e0; /* Lighter text for readability on dark background */
+}
+
+/* Navigation Menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f1f1f; /* Dark background for nav bar */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #00e676; /* Vibrant green for active links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #212121; /* Slightly darker background on hover */
+    color: #ff4081; /* Pink highlight for hover */
+}
+
+/* Layout Adjustments */
+.leftcolumn {   
+    float: left;
+    width: 65%; /* Adjusted for better content balance */
+    padding: 20px;
+}
+
+.rightcolumn {
+    float: left;
+    width: 30%; /* Adjusted for better content balance */
+    padding-left: 20px;
+}
+
+/* Card Design */
+.card {
+    background-color: #212121; /* Dark background for cards */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; /* Smooth edges for a modern look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+}
+
+/* Image Placeholder */
+.fakeimg {
+    background-color: #333; /* Darker placeholder color */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #bbb; /* Light text for better visibility */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #121212; /* Dark background for consistency */
+    color: #e0e0e0; /* Light text */
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 1000px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    ul li {
+        float: none;
+        width: 100%;
+    }
+}
